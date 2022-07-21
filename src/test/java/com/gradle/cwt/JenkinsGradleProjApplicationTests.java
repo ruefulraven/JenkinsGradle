@@ -25,7 +25,7 @@ class JenkinsGradleProjApplicationTests {
 	@Test
 	public void returnProject() {
 		List<Product> procutList = service.getAllProducts();
-		//procutList = null;
+		procutList = null;
 		Assert.isNull(procutList, "Object must be null");
 		//procutList = service.getAllProducts();
 		Assert.isTrue(procutList.size() > 0, "Size must be less than 0");
