@@ -29,3 +29,7 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.named('finalTest'){
+	println("You have reached the final message")
+}
